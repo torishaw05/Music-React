@@ -36,7 +36,7 @@ render() {
   return (
     <div>
     <form onSubmit={this.fetchData}>
-    <button type='submit'>Update </button>
+    <button type='submit'>Update  </button>
     </form>
     <div>
     {individualItem}

@@ -63,7 +63,7 @@ class PlayListForm extends Component {
   render() {
     return (
       <form onSubmit={this.addToList}>
-      <label htmlFor='formGroupInput'>Name: </label>
+      <label htmlFor='formGroupInput'>Username: </label>
       <br></br>
 
       <input onChange={this.handleNameChange} value={this.state.userName} type='text' placeholder='Your Name' />
@@ -102,6 +102,7 @@ class PlayListForm extends Component {
 
        <br></br>
 
+      <button type='submit'>Submit</button>
       </form>
 
     )
